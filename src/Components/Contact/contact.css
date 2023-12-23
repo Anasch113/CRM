@@ -1,0 +1,99 @@
+.contact-container{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+
+.contact-main-container{
+    min-height: 100vh;
+    background-color: rgb(187 187 187);
+    width: 100%;
+    display: flex;
+    align-items: center;
+   padding: 30px 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.ai-chat-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+.chatting{
+    padding: 20px 30px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.contact-form{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 70%;
+   background-color: gray;
+padding: 0px 20px;
+   border-radius: 30px;
+   
+    
+    
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   height: 100%;
+   padding: 30px;
+
+   
+    
+}
+.inputs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+  
+}
+.form-heads p{
+color: #fff;
+margin-top: -5px;
+}
+.inputs input{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media(max-width:600px){
+.contact-form{
+    width: 100%;
+}
+.contact-main-container{
+    padding: 10px;
+}
+.ai-chat-box{
+    padding: 10px;
+}
+.chatting{
+    padding: 5px;
+}
+.chatting h5{
+    font-size: 13px;
+}
+.form-inputs{
+    padding: 15px;
+}
+}

@@ -21,7 +21,9 @@ export default {
 
       textColor: {
        
-        'dark-blue' : '#24243e'
+        'dark-blue' : '#24243e',
+        'text-gray' : 'rgb(107 114 128);'
+        
         ,
         
       },
