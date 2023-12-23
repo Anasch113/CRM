@@ -19,8 +19,11 @@ const Product = () => {
 
       <div className='w-full flex flex-col items-center gap-20 min-h-900 mb-10 overflow-hidden'>
 
-    
-    <h2 className='text-3xl font-bold font-poppins mt-10 text-text-gray'>OUR PRODUCTS</h2>
+    <div>
+    <h2 className='text-3xl font-bold font-poppins mt-10 text-text-gray'>Our Products</h2>
+    <p className='text-xl  font-poppins text-text-gray'>Explore our products.</p>
+    </div>
+  
 
 
 <Product1/>
